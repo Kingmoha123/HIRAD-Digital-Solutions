@@ -1,0 +1,6 @@
+{
+  "buildCommand": "cd hirad-website && npm run build",
+  "outputDirectory": "hirad-website/dist",
+  "installCommand": "cd hirad-website && npm install",
+  "framework": "vite"
+}

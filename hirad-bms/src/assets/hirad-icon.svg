@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 228.63 228.63">
+  <defs>
+    <linearGradient id="cross-one" x1="61.14" y1="228.25" x2="108.72" y2="228.25" gradientTransform="translate(32.58 -101.81) scale(.9 .94)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2563eb"/><stop offset="1" stop-color="#06b6d4" stop-opacity=".75"/></linearGradient>
+    <linearGradient id="cross-two" x1="-63.81" y1="-61.61" x2="-16.23" y2="-61.61" gradientTransform="translate(153.39 166.78) scale(.9 .94)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2563eb"/><stop offset="1" stop-color="#06b6d4" stop-opacity=".75"/></linearGradient>
+    <linearGradient id="right-bar" x1="145.63" y1="111.63" x2="222.38" y2="111.63" gradientUnits="userSpaceOnUse"><stop offset=".23" stop-color="#2563eb"/><stop offset=".78" stop-color="#06b6d4"/></linearGradient>
+    <linearGradient id="left-bar" x1=".5" y1="114.31" x2="79.75" y2="114.31" gradientUnits="userSpaceOnUse"><stop offset=".23" stop-color="#06b6d4"/><stop offset="1" stop-color="#2563eb"/></linearGradient>
+  </defs>
+  <rect x="87.57" y="16.61" width="42.8" height="191.32" rx="21.4" ry="21.4" transform="translate(-44.69 82.81) rotate(-35)" fill="url(#cross-one)" stroke="#231f20" stroke-miterlimit="10"/>
+  <rect x="95.99" y="13.34" width="42.8" height="191.32" rx="21.4" ry="21.4" transform="translate(83.75 -47.62) rotate(35)" fill="url(#cross-two)" stroke="#231f20" stroke-miterlimit="10"/>
+  <rect x="145.63" y="1.4" width="76.75" height="220.45" rx="24.71" ry="24.71" fill="url(#right-bar)" stroke="#231f20" stroke-miterlimit="10"/>
+  <rect x=".5" y=".5" width="79.25" height="227.63" rx="24.71" ry="24.71" fill="url(#left-bar)" stroke="#231f20" stroke-miterlimit="10"/>
+</svg>
