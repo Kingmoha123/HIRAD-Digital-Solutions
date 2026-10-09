@@ -75,7 +75,7 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-1">
             <Link to="/" className="inline-block mb-5">
-              <HiradLogo dark={dark} size="md" />
+              <HiradLogo dark={dark} size="lg" />
             </Link>
             <p className={`text-sm leading-relaxed mb-6 ${dark ? 'text-gray-400' : 'text-gray-500'}`}>
               {BRAND.description}

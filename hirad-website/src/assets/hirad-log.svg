@@ -1,63 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 652.88 228.63">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-55 0 510 476">
   <defs>
     <style>
       .cls-1 {
-        fill: #fff;
-        font-family: Sora-ExtraBold, Sora;
-        font-size: 72px;
-        font-weight: 700;
+        fill: #ffffff;
+        font-family: Sora, 'Sora', sans-serif;
+        font-size: 76px;
+        font-weight: 800;
+        letter-spacing: 0.03em;
       }
 
       .cls-2 {
-        fill: url(#linear-gradient);
-      }
-
-      .cls-2, .cls-3, .cls-4, .cls-5 {
-        stroke: #231f20;
-        stroke-miterlimit: 10;
-      }
-
-      .cls-6 {
-        fill: #94a3b8;
-        font-family: Manrope-Regular, Manrope;
-        font-size: 53px;
+        fill: url(#linear-gradient-2);
       }
 
       .cls-3 {
-        fill: url(#linear-gradient-3);
+        fill: #94a3b8;
+        font-family: Manrope, 'Manrope', sans-serif;
+        font-size: 60px;
+        font-weight: 800;
+        letter-spacing: 0.01em;
       }
 
       .cls-4 {
-        fill: url(#linear-gradient-4);
-      }
-
-      .cls-5 {
-        fill: url(#linear-gradient-2);
+        fill: url(#linear-gradient);
       }
     </style>
-    <linearGradient id="linear-gradient" x1="61.14" y1="228.25" x2="108.72" y2="228.25" gradientTransform="translate(32.58 -101.81) scale(.9 .94)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#2563eb"/>
-      <stop offset="1" stop-color="#06b6d4" stop-opacity=".75"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-2" x1="-63.81" y1="-61.61" x2="-16.23" y2="-61.61" gradientTransform="translate(153.39 166.78) scale(.9 .94)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#2563eb"/>
-      <stop offset="1" stop-color="#06b6d4" stop-opacity=".75"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-3" x1="145.63" y1="111.63" x2="222.38" y2="111.63" gradientUnits="userSpaceOnUse">
-      <stop offset=".23" stop-color="#2563eb"/>
-      <stop offset=".78" stop-color="#06b6d4"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-4" x1=".5" y1="114.31" x2="79.75" y2="114.31" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient" x1="74.65" y1="63.45" x2="143.86" y2="63.45" gradientUnits="userSpaceOnUse">
       <stop offset=".23" stop-color="#06b6d4"/>
       <stop offset="1" stop-color="#2563eb"/>
     </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="73.86" y1="153.62" x2="323.63" y2="153.62" xlink:href="#linear-gradient"/>
   </defs>
   <g>
-    <rect class="cls-2" x="87.57" y="16.61" width="42.8" height="191.32" rx="21.4" ry="21.4" transform="translate(-44.69 82.81) rotate(-35)"/>
-    <rect class="cls-5" x="95.99" y="13.34" width="42.8" height="191.32" rx="21.4" ry="21.4" transform="translate(83.75 -47.62) rotate(35)"/>
-    <rect class="cls-3" x="145.63" y="1.4" width="76.75" height="220.45" rx="24.71" ry="24.71"/>
-    <rect class="cls-4" x=".5" y=".5" width="79.25" height="227.63" rx="24.71" ry="24.71"/>
+    <path class="cls-4" d="M143.86,23.43v52.92c0,25.75-20.87,46.62-46.62,46.62h-22.59V23.43c0-10.76,8.72-19.48,19.48-19.48h30.24c10.76,0,19.48,8.72,19.48,19.48Z"/>
+    <path class="cls-2" d="M323.63,49.71v238.05c0,10.75-8.72,19.48-19.48,19.48h-30.23c-10.76,0-19.49-8.73-19.49-19.48v-99.54h-53.29c-32.07,0-58.07,26-58.07,58.07v41.47c0,10.75-8.72,19.48-19.48,19.48h-30.23c-10.76,0-19.49-8.73-19.49-19.48v-65.26c0-57.15,46.33-103.48,103.48-103.48h77.08V19.49c0-10.76,8.73-19.49,19.49-19.49h0c27.46,0,49.71,22.26,49.71,49.71Z"/>
   </g>
-  <text transform="translate(255.38 106.37)"><tspan class="cls-1"><tspan x="0" y="0">HIRAD</tspan></tspan><tspan class="cls-6"><tspan x="0" y="63.6">Digital Solutions</tspan></tspan></text>
+  <text text-anchor="middle">
+    <tspan x="200" y="382" class="cls-1">HIRAD</tspan>
+    <tspan x="200" y="446" class="cls-3">Digital Solutions</tspan>
+  </text>
 </svg>

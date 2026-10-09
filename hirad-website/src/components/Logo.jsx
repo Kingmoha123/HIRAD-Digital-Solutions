@@ -46,18 +46,18 @@ export function HiradIcon({ size = 40, className = '' }) {
   );
 }
 
-export function HiradLogo({ dark = false, size = 'md' }) {
-  const heights = {
-    sm: 28,
-    md: 40,
-    lg: 52,
-  };
-
+export function HiradLogo({ dark = false, size = 'md', className = '', style = {} }) {
   return (
     <img
       src={dark ? darkLogo : lightLogo}
       alt="HIRAD Digital Solutions"
-      style={{ display: 'block', height: `${heights[size] || heights.md}px`, width: 'auto' }}
+      className={`hirad-logo hirad-logo-${size} ${className}`}
+      style={{
+        display: 'block',
+        width: 'auto',
+        objectFit: 'contain',
+        ...style,
+      }}
     />
   );
 }

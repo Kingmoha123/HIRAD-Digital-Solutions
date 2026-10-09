@@ -25,28 +25,61 @@
 }
 
 @keyframes fadeUp {
-  from { opacity: 0; transform: translateY(30px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-20px); }
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
 }
 
 @keyframes pulseSlow {
-  0%, 100% { opacity: 0.4; transform: scale(1); }
-  50% { opacity: 0.8; transform: scale(1.05); }
+
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
 }
 
 @keyframes spinSlow {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 :root {
@@ -57,6 +90,7 @@
 }
 
 @layer base {
+
   *,
   *::before,
   *::after {
@@ -85,18 +119,38 @@ body.dark {
   color: #ffffff;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Sora', sans-serif;
   font-weight: 700;
   line-height: 1.2;
 }
 
 /* Scrollbar */
-::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: #F4F7FB; }
-::-webkit-scrollbar-thumb { background: #2563EB; border-radius: 3px; }
-body.dark ::-webkit-scrollbar-track { background: #0F1A2E; }
-body.dark ::-webkit-scrollbar-thumb { background: #06B6D4; }
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F4F7FB;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2563EB;
+  border-radius: 3px;
+}
+
+body.dark ::-webkit-scrollbar-track {
+  background: #0F1A2E;
+}
+
+body.dark ::-webkit-scrollbar-thumb {
+  background: #06B6D4;
+}
 
 /* Utility classes */
 .gradient-text {
@@ -132,13 +186,13 @@ body.dark ::-webkit-scrollbar-thumb { background: #06B6D4; }
 }
 
 .page-hero {
-  padding-top: calc(80px + clamp(3.5rem, 5vw, 5rem));
+  padding-top: calc(94px + clamp(3.5rem, 5vw, 5rem));
   padding-bottom: clamp(4rem, 6vw, 5.5rem);
 }
 
 .home-hero {
   min-height: min(48rem, 88svh);
-  padding-top: 80px;
+  padding-top: 94px;
 }
 
 .home-hero-content {
@@ -163,7 +217,56 @@ body.dark ::-webkit-scrollbar-thumb { background: #06B6D4; }
 }
 
 .site-header-inner {
-  min-height: 80px;
+  min-height: 84px;
+}
+
+@media (min-width: 768px) {
+  .site-header-inner {
+    min-height: 94px;
+  }
+}
+
+/* Hirad Logo sizing */
+.hirad-logo {
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.hirad-logo:hover {
+  transform: scale(1.02);
+}
+
+.hirad-logo-sm {
+  height: 48px;
+}
+
+.hirad-logo-md {
+  height: 68px;
+}
+
+.hirad-logo-lg {
+  height: 84px;
+}
+
+.hirad-logo-xl {
+  height: 100px;
+}
+
+@media (min-width: 768px) {
+  .hirad-logo-sm {
+    height: 56px;
+  }
+
+  .hirad-logo-md {
+    height: 82px;
+  }
+
+  .hirad-logo-lg {
+    height: 104px;
+  }
+
+  .hirad-logo-xl {
+    height: 124px;
+  }
 }
 
 .site-nav {
@@ -225,14 +328,14 @@ footer {
 
 /* Grid pattern background */
 .grid-pattern {
-  background-image: 
+  background-image:
     linear-gradient(rgba(37, 99, 235, 0.06) 1px, transparent 1px),
     linear-gradient(90deg, rgba(37, 99, 235, 0.06) 1px, transparent 1px);
   background-size: 40px 40px;
 }
 
 body.dark .grid-pattern {
-  background-image: 
+  background-image:
     linear-gradient(rgba(6, 182, 212, 0.05) 1px, transparent 1px),
     linear-gradient(90deg, rgba(6, 182, 212, 0.05) 1px, transparent 1px);
   background-size: 40px 40px;
@@ -268,11 +371,28 @@ body.dark .grid-pattern {
   transition: opacity 0.3s ease;
 }
 
-.btn-primary:hover::before { opacity: 1; }
-.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 12px 35px rgba(37, 99, 235, 0.35); }
-.btn-primary:active { transform: translateY(0); }
-.btn-primary span { position: relative; z-index: 1; }
-.btn-primary svg { position: relative; z-index: 1; }
+.btn-primary:hover::before {
+  opacity: 1;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 35px rgba(37, 99, 235, 0.35);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+.btn-primary span {
+  position: relative;
+  z-index: 1;
+}
+
+.btn-primary svg {
+  position: relative;
+  z-index: 1;
+}
 
 .btn-secondary {
   display: inline-flex;
@@ -356,12 +476,15 @@ body.dark .card-hover:hover {
 }
 
 /* Smooth transitions for dark mode */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
 }
 
 /* Prevent horizontal overflow on all screen sizes */
-html, body {
+html,
+body {
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -385,5 +508,5 @@ html, body {
 /* Thumbnail scroll - hide scrollbar but keep scrollable */
 .thumbnail-strip {
   scrollbar-width: thin;
-  scrollbar-color: rgba(37,99,235,0.3) transparent;
+  scrollbar-color: rgba(37, 99, 235, 0.3) transparent;
 }

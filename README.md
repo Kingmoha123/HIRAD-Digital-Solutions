@@ -22,11 +22,14 @@ HIRAD-Digital-Solutions/
 - **Features:**
   - Modern, responsive marketing website
   - Portfolio showcasing verified projects (HIRAD BMS, Pharmacy Management, Koryaal Fitness, Al-Cadaala Restaurant)
+
+  
   - Team section featuring the functional leads & core team
   - Service inquiry, interactive consultation forms & dark/light theme
 
 ### 2. `hirad-bms` — Enterprise Business Management System (Frontend)
 - **Tech Stack:** React, Tailwind CSS, Lucide Icons, Recharts
+
 - **Features:** Centralized dashboard, CRM pipelines, sprint task tracking, financial management & invoices.
 
 ### 3. `hirad-bms-api` — Backend API

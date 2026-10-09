@@ -32,16 +32,15 @@ export default function Navbar() {
   return (
     <>
       <motion.header
-        initial={{ y: -80 }}
+        initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.5, ease: 'easeOut' }}
-        className={`site-header fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          scrolled
-            ? dark
-              ? 'bg-[#0B1220]/95 backdrop-blur-xl border-b border-white/8 shadow-2xl shadow-black/20'
-              : 'bg-white/95 backdrop-blur-xl border-b border-gray-100 shadow-lg shadow-black/5'
-            : 'bg-transparent'
-        }`}
+        className={`site-header fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
+          ? dark
+            ? 'bg-[#0B1220]/95 backdrop-blur-xl border-b border-white/8 shadow-2xl shadow-black/20'
+            : 'bg-white/95 backdrop-blur-xl border-b border-gray-100 shadow-lg shadow-black/5'
+          : 'bg-transparent'
+          }`}
       >
         <div className="container-custom">
           <div className="site-header-inner flex items-center justify-between">
@@ -56,13 +55,12 @@ export default function Navbar() {
                 <Link
                   key={link.href}
                   to={link.href}
-                  className={`site-nav-link relative rounded-lg font-semibold transition-all duration-200 font-sora ${
-                    isActive(link.href)
-                      ? 'text-[#2563EB]'
-                      : dark
-                        ? 'text-gray-300 hover:text-white hover:bg-white/8'
-                        : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
-                  }`}
+                  className={`site-nav-link relative rounded-lg font-semibold transition-all duration-200 font-sora ${isActive(link.href)
+                    ? 'text-[#2563EB]'
+                    : dark
+                      ? 'text-gray-300 hover:text-white hover:bg-white/8'
+                      : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
+                    }`}
                   style={{ fontFamily: 'Sora, sans-serif' }}
                 >
                   {link.label}
@@ -80,11 +78,10 @@ export default function Navbar() {
             <div className="hidden lg:flex items-center gap-3">
               <button
                 onClick={toggleDark}
-                className={`p-2.5 rounded-lg transition-all duration-200 ${
-                  dark
-                    ? 'text-gray-400 hover:text-white hover:bg-white/10'
-                    : 'text-gray-500 hover:text-gray-900 hover:bg-gray-100'
-                }`}
+                className={`p-2.5 rounded-lg transition-all duration-200 ${dark
+                  ? 'text-gray-400 hover:text-white hover:bg-white/10'
+                  : 'text-gray-500 hover:text-gray-900 hover:bg-gray-100'
+                  }`}
                 aria-label="Toggle theme"
               >
                 {dark ? <Sun size={18} /> : <Moon size={18} />}
@@ -125,7 +122,7 @@ export default function Navbar() {
             exit={{ opacity: 0, x: '100%' }}
             transition={{ type: 'spring', damping: 25, stiffness: 200 }}
             className={`fixed inset-0 z-40 ${dark ? 'bg-[#0B1220]' : 'bg-white'}`}
-            style={{ paddingTop: '80px' }}
+            style={{ paddingTop: '94px' }}
           >
             <div className="container-custom py-8 flex flex-col gap-2">
               {NAV_LINKS.map((link, i) => (
@@ -137,13 +134,12 @@ export default function Navbar() {
                 >
                   <Link
                     to={link.href}
-                    className={`block px-5 py-4 rounded-xl text-lg font-semibold transition-all ${
-                      isActive(link.href)
-                        ? 'text-[#2563EB] bg-blue-50 dark:bg-blue-950/30'
-                        : dark
-                          ? 'text-gray-200 hover:bg-white/8'
-                          : 'text-gray-800 hover:bg-gray-50'
-                    }`}
+                    className={`block px-5 py-4 rounded-xl text-lg font-semibold transition-all ${isActive(link.href)
+                      ? 'text-[#2563EB] bg-blue-50 dark:bg-blue-950/30'
+                      : dark
+                        ? 'text-gray-200 hover:bg-white/8'
+                        : 'text-gray-800 hover:bg-gray-50'
+                      }`}
                     style={{ fontFamily: 'Sora, sans-serif' }}
                   >
                     {link.label}

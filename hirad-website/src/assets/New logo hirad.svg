@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-55 0 510 476">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 397.49 468.7">
   <defs>
     <style>
       .cls-1 {
-        fill: #0b1220;
-        font-family: Sora, 'Sora', sans-serif;
-        font-size: 76px;
-        font-weight: 800;
-        letter-spacing: 0.03em;
+        fill: #fff;
+        font-family: Sora-ExtraBold, Sora;
+        font-size: 72px;
+        font-weight: 700;
       }
 
       .cls-2 {
@@ -15,11 +14,9 @@
       }
 
       .cls-3 {
-        fill: #475569;
-        font-family: Manrope, 'Manrope', sans-serif;
-        font-size: 60px;
-        font-weight: 800;
-        letter-spacing: 0.01em;
+        fill: #94a3b8;
+        font-family: Manrope-Regular, Manrope;
+        font-size: 53px;
       }
 
       .cls-4 {
@@ -36,8 +33,5 @@
     <path class="cls-4" d="M143.86,23.43v52.92c0,25.75-20.87,46.62-46.62,46.62h-22.59V23.43c0-10.76,8.72-19.48,19.48-19.48h30.24c10.76,0,19.48,8.72,19.48,19.48Z"/>
     <path class="cls-2" d="M323.63,49.71v238.05c0,10.75-8.72,19.48-19.48,19.48h-30.23c-10.76,0-19.49-8.73-19.49-19.48v-99.54h-53.29c-32.07,0-58.07,26-58.07,58.07v41.47c0,10.75-8.72,19.48-19.48,19.48h-30.23c-10.76,0-19.49-8.73-19.49-19.48v-65.26c0-57.15,46.33-103.48,103.48-103.48h77.08V19.49c0-10.76,8.73-19.49,19.49-19.49h0c27.46,0,49.71,22.26,49.71,49.71Z"/>
   </g>
-  <text text-anchor="middle">
-    <tspan x="200" y="382" class="cls-1">HIRAD</tspan>
-    <tspan x="200" y="446" class="cls-3">Digital Solutions</tspan>
-  </text>
+  <text transform="translate(0 390.52)"><tspan class="cls-1"><tspan x="0" y="0" xml:space="preserve">      HIRAD</tspan></tspan><tspan class="cls-3"><tspan x="0" y="63.6">Digital Solutions</tspan></tspan></text>
 </svg>
